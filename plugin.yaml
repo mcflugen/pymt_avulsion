@@ -1,0 +1,21 @@
+build:
+  define_macros: []
+  extra_compile_args: []
+  include_dirs: []
+  libraries:
+  - bmi_avulsion
+  library_dirs: []
+  undef_macros: []
+info:
+  github_username: mcflugen
+  plugin_author: Eric Hutton
+  plugin_license: MIT
+  summary: PyMT plugin for avulsion
+library:
+  entry_point: Avulsion=avulsion:Avulsion
+  language: c
+  register: register_bmi_avulsion
+plugin:
+  name: avulsion
+  requirements:
+  - sedflux
